@@ -1,4 +1,4 @@
-# UNIT 99: Divine Mars
+# UNIT 99
 
 > **"A Temple on Mars."**
 
