@@ -1,8 +1,8 @@
-# UNIT 99
+# Divine Mars
 
 > **"A Temple on Mars."**
 
-**UNIT 99** is a **Ring-0 Nock Interpreter** for **ZealOS**.
+**Divine Mars** is a **Ring-0 Nock Interpreter** for **ZealOS**.
 
 It runs the Urbit Virtual Machine directly on bare metal x86_64 hardware, bypassing Linux, Unix, and C runtimes entirely.
 
@@ -12,7 +12,7 @@ It runs the Urbit Virtual Machine directly on bare metal x86_64 hardware, bypass
 
 We run virtual machines inside containers inside managed runtimes on top of kernels we didn't compile. We have lost touch with the machine.
 
-**UNIT 99** strips away the abstraction.
+**Divine Mars** strips away the abstraction.
 
 - **Host:** ZealOS (The Divine Frontend). A Ring-0, identity-mapped, JIT-compiled operating system.
 - **Guest:** Urbit (The Martian Backend). A strict, functional, immutable state machine.
@@ -30,7 +30,7 @@ The project runs as a single System Task (Daemon).
 ```
 [ Hardware (x86_64) ]
 |
- <--- UNIT 99 Hooks (Interrupts/Memory)
+ <--- Divine Mars Hooks (Interrupts/Memory)
 |
 [ HolyC Nock Interpreter ] <--- The Bridge
 |
@@ -56,11 +56,11 @@ The Urbit Loom is a contiguous 2GB arena allocated in High Memory (above 4GB) to
 
 **Build Instructions:**
 
-1.  Clone this repo into `::/Home/Unit99`.
+1.  Clone this repo into `::/Home/divinemars`.
 2.  Include the manifest:C
     
     ```
-    #include "::/Home/Unit99/Load.CC"
+    #include "::/Home/divinears/Load.CC"
     ```
     
 3.  Compile the Nock Kernel:C
