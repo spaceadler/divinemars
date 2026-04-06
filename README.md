@@ -2,7 +2,7 @@
 
 > **"A Temple on Mars."**
 
-**Divine Mars** is a **Ring-0 Nock Interpreter** for **ZealOS**.
+**Divine Mars** is a **Ring-0 Nock Interpreter** for a TempleOS fork, **ZealOS**.
 
 It runs the Urbit Virtual Machine directly on bare metal x86_64 hardware, bypassing Linux, Unix, and C runtimes entirely.
 
